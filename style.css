@@ -1,0 +1,50 @@
+body,
+html {
+  height: 100%;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} /* for some reason i have to group this, if i add this image into body only it doesn't take body as full site somehow 
+and centeriation does not work. body is than a size of a container or at least i think.*/ 
+
+h1 {
+  text-transform: capitalize;
+  color: white;
+  font-weight: bolder;
+  
+}
+
+.buffer {
+  height: 5rem;
+}
+
+hr {
+  margin: 20px auto;
+  color: rgb(0 123 255);
+  border: 3px solid rgb(10 123 255);;
+  max-width: 65px;
+  opacity: 1;
+}
+
+.btn-light {
+  color: #f8f9fa;
+  background-color: rgb(0 123 255 / 29%);
+  font-weight: bold;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 15px;
+  text-transform: uppercase;
+  
+}
+
+.btn-light:hover {
+  cursor: help;
+  border-width: 4px;
+}
+
+.btn-xl {
+  padding: 1rem 2rem;  
+}
